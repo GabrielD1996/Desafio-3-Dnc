@@ -1,0 +1,39 @@
+.card {
+    display: flex;
+    justify-content: center;  
+    width: 30vw;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px ;
+   
+}
+.card img:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+    transition-duration: 0,5s;
+}
+.card section {
+    padding: 2vw;
+    border-radius: 2vw 0;
+    width: 100%;   
+    box-shadow: 0px 0px 12px 0px #FFF;
+}
+.card h3{
+    font-size: 2vw;
+    text-align: center;
+    margin: 2vw 0 0 0;
+}
+.card h5{
+    margin: 0;  
+    padding: 1vw 0 1vw 0;
+    font-size: 1.2vw; 
+}
+.card p{
+    margin: 0;
+    padding: 2vw 0 2vw 0;
+    height: 2vw;
+    font-size: 1.2vw;
+    align-content: center;
+}   

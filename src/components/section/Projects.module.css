@@ -1,0 +1,14 @@
+.Projects{
+   margin: 10%;
+   
+}
+
+.Projects h1{    
+    font-size: 3vw;
+}
+
+.cardSection{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 8% ;
+}

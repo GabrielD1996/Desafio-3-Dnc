@@ -1,0 +1,32 @@
+.navbar {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.links {
+    margin-left: 32vw;
+}
+
+.links ul li {
+    margin-left: 3vw;
+}
+
+.icons {
+    padding-right: 2.5vw;
+    margin-left: auto;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar li {
+    margin: 1vw;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 1.2vw;
+}
