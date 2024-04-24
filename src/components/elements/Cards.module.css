@@ -1,84 +1,103 @@
 .card {
     display: flex;
-    justify-content: center;  
+    justify-content: center;
     width: 30vw;
     margin-bottom: 20px;
 }
 
+.test {
+    height: 50%;
+}
+
 .card img {
-    width: 100%;    
-    border-radius: 8px ;   
+    width: 100%;
+    border-radius: 8px;
 }
-.hiddenCard{
-    display:grid;  
+
+.hiddenCard {
+    display: grid;
     align-content: space-around;
-    width: 440px;
-    justify-items: center;   
-   height: 271px;    
-    background: linear-gradient(270deg, #3406454e 0%, #242f6c39 66.67%, #0b01164e 100%) !important;    
+    justify-items: center;
+    width: 100%;
+    height: 221px;
+    background: linear-gradient(270deg, #3406454e 0%, #242f6c39 66.67%, #0b01164e 100%) !important;
     border-radius: 1vw;
-    background-size: cover; 
-    color: white;      
-    
+    background-size: cover;
+    color: white;
+    margin-top: 20px;
+
 }
-.hiddenInfo {  
+
+.hiddenInfo {
     display: grid;
     align-content: center;
+
     width: 350px;
     height: 250px;
     background-color: transparent;
 }
-.hiddenCard h4{ 
+
+.hiddenCard h4 {
     background-color: transparent;
     font-size: 20px;
     font-weight: normal;
     margin: 0 0 20px 0;
 }
-.card img:hover{
+
+.card img:hover {
     transform: translateY(-10px);
     cursor: pointer;
-    transition-duration: 0,5s;
+    transition-duration: 0, 5s;
 }
+
 .card section {
     padding: 2vw;
     border-radius: 2vw 0;
-    width: 100%;   
+    width: 100%;
     box-shadow: 0px 0px 12px 0px #FFF;
 }
-.card h3{
+
+.card h3 {
     font-size: 2vw;
     text-align: center;
     margin: 2vw 0 0 0;
-    
+
 }
-.card h5{
-    margin: 5px 0 5px 0;  
+
+.card h5 {
+    margin: 5px 0 5px 0;
     padding: 1vw 0 1vw 0;
-    
-    font-size: 1.2vw; 
+
+    font-size: 1.2vw;
 }
-.card p{
+
+.card p {
     margin: 0;
     padding: 2vw 0 2vw 0;
     height: 80px;
     font-size: 1.2vw;
     align-content: center;
-}   
+}
+
 @media (max-width: 768px) {
-    .card{
+    .card {
         width: 240px;
     }
-    .hiddenCard{
+
+    .hiddenCard {
         height: 125px;
         margin-top: 5px;
     }
-    .card h3{
+
+    .card h3 {
         font-size: 5vw;
     }
-    .card h5{
+
+    .card h5 {
         font-size: 15px;
     }
-    .card p{
+
+    .card p {
         font-size: 13px;
     }
 }

@@ -15,7 +15,7 @@ function Timeline() {
                         <p>2022</p>
                         <p>2023</p>
                         <p>2024</p>
-                    </div>
+                    </div> 
                 </div>
                 <div className={styles.lineConfig}>
                     <div className={styles.line}>
@@ -47,28 +47,3 @@ function Timeline() {
 }
 
 export default Timeline;
-
-{/* <div>
-//     <div className={styles.descricao}>
-//         {/* <p>Evento 1</p>
-//         <p>Evento 2</p>
-//         <p>Evento 3</p>
-//         <p>Evento 4</p> */}
-//         <div className={styles.test}>
-
-//         </div>
-//     </div>
-//     <div className={styles.general}>
-//         {/* <div className={styles.timeline}>
-
-//             <spam className={styles.events} style={{ left: '0%' }}></spam>
-
-//             <spam className={styles.events} style={{ left: '33%' }}></spam>
-
-//             <spam className={styles.events} style={{ left: '66%' }}></spam>
-
-//             <spam className={styles.events} style={{ left: '100%' }}></spam>
-//         </div> */}
-//     </div>
-
-// </div> */}
