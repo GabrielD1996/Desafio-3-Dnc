@@ -1,7 +1,7 @@
 import styles from './Presentation.module.css'
 import { useEffect, useState } from 'react'
 import ButtonA from '../elements/ButtonA'
-
+import { FaBook, FaDesktop, FaLightbulb, FaRocket} from "react-icons/fa";
 
 function Presentation() {
 
@@ -14,7 +14,7 @@ function Presentation() {
     
     useEffect(() => {
         let ticker = setInterval(() => {
-            toType()
+            toType() 
         }, delta)
         return () => { clearInterval(ticker) }
     }, [text])
@@ -28,7 +28,7 @@ function Presentation() {
 
         if (!isDeleting && updatedText === fullText) {    
             setIsDeleting(true);      
-            setDelta(200);
+            setDelta(250);
 
         } else if (isDeleting && updatedText === '') {
             setIsDeleting(false);
@@ -36,21 +36,21 @@ function Presentation() {
             setLoop(loop + 1);
         }
     }
-
+ 
 
     return (
         <div id="presentation" className={styles.Presentation}>
             <h1><strong> Olá, eu sou Gabriel D.  </strong></h1>
-            <h4>*{text}</h4>
+            <h2>*{text}</h2>
 
-            <p>Sou apaixonado por buscar maneiras criativas para solucionar <br />
-                os problema do dia a dia, estou empenhado em transformar minha <br />
-                paixão em uma carreira de sucesso como Desenvolvedor Web. <br />
-                Criando uma base sólida com os estudos na escola DNC com a <br />
-                formação em tecnologia , estou pronto para mergulhar de cabeça <br />
-                no universo da programação.</p>
+            <ul>
+                <li><FaBook size={'16'} />&nbsp;Estudante de tecnologia  </li>
+                <li><FaDesktop size={'16'} />&nbsp;Cursando na DNC, formaçao em tecnologia (fullStack)</li>
+                <li><FaLightbulb  />&nbsp;Interesse em desenvolvimento front end e back end</li>
+                <li> <FaRocket size={'16'} />&nbsp;Buscando uma oportunidade de migração de carreira </li>
+            </ul>
 
-            <p><ButtonA sizeF='1.2vw' text='Saber mais!' link='https://www.linkedin.com/in/gabriel-domingues-5b987b251/' /></p>
+            <div><ButtonA sizeF='1.2vw' text='Saber mais!' link='https://www.linkedin.com/in/gabriel-domingues-5b987b251/' /></div>
 
         </div>
     )

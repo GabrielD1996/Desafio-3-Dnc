@@ -2,12 +2,32 @@
     display: flex;
     justify-content: center;  
     width: 30vw;
+    margin-bottom: 20px;
 }
 
 .card img {
+    width: 100%;    
+    border-radius: 8px ;   
+}
+.hiddenCard{
+    display:grid;  
     width: 100%;
-    border-radius: 8px ;
-   
+    justify-content: center;
+    margin-top: 25px;
+    padding-top: 2vw;
+    height: 211px;
+    background: linear-gradient(270deg, #3406454e 0%, #242f6c39 66.67%, #0b01164e 100%);    
+    border-radius: 1vw;
+    background-size: cover; 
+    color: white;   
+    
+    
+}
+.div3{
+    background-color:   rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    
 }
 .card img:hover{
     transform: translateY(-10px);
@@ -24,16 +44,36 @@
     font-size: 2vw;
     text-align: center;
     margin: 2vw 0 0 0;
+    
 }
 .card h5{
-    margin: 0;  
+    margin: 5px 0 5px 0;  
     padding: 1vw 0 1vw 0;
+    
     font-size: 1.2vw; 
 }
 .card p{
     margin: 0;
     padding: 2vw 0 2vw 0;
-    height: 2vw;
+    height: 80px;
     font-size: 1.2vw;
     align-content: center;
 }   
+@media (max-width: 768px) {
+    .card{
+        width: 240px;
+    }
+    .hiddenCard{
+        height: 125px;
+        margin-top: 5px;
+    }
+    .card h3{
+        font-size: 5vw;
+    }
+    .card h5{
+        font-size: 15px;
+    }
+    .card p{
+        font-size: 13px;
+    }
+}
