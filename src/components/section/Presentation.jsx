@@ -50,10 +50,10 @@ function Presentation() {
                 <li> <FaRocket size={'16'} />&nbsp;Buscando uma oportunidade de migração de carreira </li>
             </ul>
 
-            <div><ButtonA sizeF='1.2vw' text='Saber mais!' link='https://www.linkedin.com/in/gabriel-domingues-5b987b251/' /></div>
+            <div><ButtonA  text='Saber mais!' link='https://www.linkedin.com/in/gabriel-domingues-5b987b251/' /></div>
 
         </div>
     )
-}
+} 
 
 export default Presentation

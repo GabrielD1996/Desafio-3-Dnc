@@ -2,7 +2,7 @@ import Styles from './Cards.module.css'
 import ButtonA from '../elements/ButtonA'
 import { useState } from 'react'
 
-function Cards({ img, title, description, tech, repo, site }) {
+function Cards({ img, title, description, tech, repo, site, hiddenInfo,   }) {
     const [info, setInfo] = useState(false);
 
     const handleInfoOn = () => {
@@ -18,10 +18,13 @@ function Cards({ img, title, description, tech, repo, site }) {
             {info ? (
                 <section>
                     <div className={Styles.hiddenCard}>
-                        <div className={Styles.div3} >
-                            TESTE DE FUNCIONAMENTO
-                        </div>
+                        
+                            <div className={Styles.hiddenInfo}>
+                                <h4>{hiddenInfo}</h4>
+                                <ButtonA className={Styles.hiddenBtn} id="btnCards" text={'Acesse meu site'} link={site} />
+                            </div>
                        
+                        
 
                     </div>
                     <div>
@@ -30,12 +33,12 @@ function Cards({ img, title, description, tech, repo, site }) {
                             <strong>Tecnologias: </strong> {tech}
                         </h5>
                         <p>{description}</p>
-                        <ButtonA sizeF="1.2vw" id="btnCards" text={'Clique Aqui'} link={repo} />
+                        <ButtonA  id="btnCards" text={'Repositório'} link={repo} />
                     </div>
                 </section>
             ) : (
                 <section>
-                    <a onMouseEnter={handleInfoOn} onTouchStart={handleInfoOn} target="_blank" href={site}>
+                    <a onMouseEnter={handleInfoOn} onTouchStart={handleInfoOn} target="_blank" href={''}>
                         <img src={img} alt="ErroIMG" />
                     </a>
                     <div>
@@ -44,7 +47,7 @@ function Cards({ img, title, description, tech, repo, site }) {
                             <strong>Tecnologias: </strong> {tech}
                         </h5>
                         <p>{description}</p>
-                        <ButtonA id="btnCards" text={'Clique Aqui'} link={repo} />
+                        <ButtonA className={Styles.btn} id="btnCards" text={'Repositório'} link={repo} />
                     </div>
 
                 </section>

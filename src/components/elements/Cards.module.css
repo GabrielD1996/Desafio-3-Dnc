@@ -11,23 +11,28 @@
 }
 .hiddenCard{
     display:grid;  
-    width: 100%;
-    justify-content: center;
-    margin-top: 25px;
-    padding-top: 2vw;
-    height: 211px;
-    background: linear-gradient(270deg, #3406454e 0%, #242f6c39 66.67%, #0b01164e 100%);    
+    align-content: space-around;
+    width: 440px;
+    justify-items: center;   
+   height: 271px;    
+    background: linear-gradient(270deg, #3406454e 0%, #242f6c39 66.67%, #0b01164e 100%) !important;    
     border-radius: 1vw;
     background-size: cover; 
-    color: white;   
-    
+    color: white;      
     
 }
-.div3{
-    background-color:   rgba(0, 0, 0, 0.5);
-    display: flex;
-    align-items: center;
-    
+.hiddenInfo {  
+    display: grid;
+    align-content: center;
+    width: 350px;
+    height: 250px;
+    background-color: transparent;
+}
+.hiddenCard h4{ 
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0 0 20px 0;
 }
 .card img:hover{
     transform: translateY(-10px);
