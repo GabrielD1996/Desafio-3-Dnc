@@ -10,7 +10,7 @@
 }
 
 .card img {
-    width: 100%;
+    width: 100%;   
     border-radius: 8px;
 }
 
@@ -19,19 +19,19 @@
     align-content: space-around;
     justify-items: center;
     width: 100%;
-    height: 221px;
+    height: 302px ;
     background: linear-gradient(270deg, #3406454e 0%, #242f6c39 66.67%, #0b01164e 100%) !important;
     border-radius: 1vw;
     background-size: cover;
     color: white;
-    margin-top: 20px;
+    text-align: center;
+    
 
 }
 
 .hiddenInfo {
     display: grid;
     align-content: center;
-
     width: 350px;
     height: 250px;
     background-color: transparent;
@@ -67,15 +67,17 @@
 .card h5 {
     margin: 5px 0 5px 0;
     padding: 1vw 0 1vw 0;
-
-    font-size: 1.2vw;
+    font-size: 22px;
+    font-weight: normal;
 }
-
+.card h5 strong{
+    font-size: 27px;
+}
 .card p {
     margin: 0;
     padding: 2vw 0 2vw 0;
-    height: 80px;
-    font-size: 1.2vw;
+    height: 120px;
+    font-size: 20px;
     align-content: center;
 }
 
@@ -88,6 +90,19 @@
         height: 125px;
         margin-top: 5px;
     }
+    .hiddenInfo {
+        width: 80%;
+        height: 100px;
+           
+    }
+    .hiddenCard h4 {
+        font-size: 10px;
+        font-weight: normal;
+        margin: 0 0 -10px 0;
+    }
+    .hiddenBtn{
+      font-size: 10px !important;
+    }
 
     .card h3 {
         font-size: 5vw;
@@ -98,6 +113,7 @@
     }
 
     .card p {
-        font-size: 13px;
+        font-size: 12px;
+        height: 110px;
     }
 }

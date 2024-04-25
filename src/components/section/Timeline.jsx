@@ -11,10 +11,10 @@ function Timeline() {
             <div className={styles.verticalConfig}>
                 <div className={styles.time}>
                     <div className={styles.pointTitle}>
-                        <p>2021</p>
-                        <p>2022</p>
-                        <p>2023</p>
-                        <p>2024</p>
+                        <p>Fase 1</p>
+                        <p>Fase 2</p>
+                        <p>Fase 3</p>
+                        <p>Fase 4</p>
                     </div> 
                 </div>
                 <div className={styles.lineConfig}>
@@ -28,16 +28,20 @@ function Timeline() {
                 <div className={styles.general}>
                     <div className={styles.info}>
                         <div className={styles.infoText}>
-                            <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p> Comecei minha jornada na programação com projetos introdutórios, aprendendo os fundamentos através da 
+                                construção de uma página web funcional com HTML, CSS e JavaScript.</p>
                         </div>
                         <div className={styles.infoText}>
-                            <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p >Avancei para desafios envolvendo integrações de APIs, onde explorei solicitações HTTP, manipulação de 
+                                dados JSON e integração de respostas de APIs em minhas aplicações.</p>
                         </div>
                         <div className={styles.infoText}>
-                            <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p >Ao mergulhar no desenvolvimento fullstack, meu portfólio construído com React e Vite tornou-se um marco 
+                                significativo, demonstrando minhas habilidades em front-end e back-end.</p>
                         </div>
                         <div className={styles.infoText}>
-                            <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p >Cada projeto e desafio ao longo do curso marcou uma etapa importante em minha evolução como programador,
+                                 proporcionando aprendizado contínuo e crescimento em habilidades técnicas.</p>
                         </div>
                     </div>
                 </div>

@@ -6,7 +6,7 @@ function Footer() {
     return (
         <>
             <div className={styles.footer}>
-                <div>
+                <div className={styles.contact}>
                     <h2>Meu contato:</h2>
                     <h2>(31) 99999999</h2>
                 </div>

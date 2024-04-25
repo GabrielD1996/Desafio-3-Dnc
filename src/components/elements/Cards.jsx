@@ -2,7 +2,7 @@ import Styles from './Cards.module.css'
 import ButtonA from '../elements/ButtonA'
 import { useState } from 'react'
 
-function Cards({ img, title, description, tech, repo, site, hiddenInfo}) {
+function Cards({ img, title, description, tech, repo, site, hiddenInfo,btnText}) {
     const [info, setInfo] = useState(false);
 
     const handleInfoOn = () => {
@@ -12,20 +12,16 @@ function Cards({ img, title, description, tech, repo, site, hiddenInfo}) {
     const handleInfoOff = () => {
         setInfo(false);
     };
- 
+
     return (
         <div onMouseLeave={handleInfoOff} onTouchEnd={handleInfoOff} className={Styles.card}>
             {info ? (
                 <section>
-                    <div className={Styles.hiddenCard}>
-                        
+                    <div className={Styles.hiddenCard}>                      
                             <div className={Styles.hiddenInfo}>
                                 <h4>{hiddenInfo}</h4>
-                                <ButtonA className={Styles.hiddenBtn} id="btnCards" text={'Acesse meu site'} link={site} />
+                                <ButtonA className={Styles.hiddenBtn} id="btnCards" text={btnText} link={site} />
                             </div>
-                       
-                        
-
                     </div>
                     <div>
                         <h3>{title}</h3>
@@ -38,9 +34,9 @@ function Cards({ img, title, description, tech, repo, site, hiddenInfo}) {
                 </section>
             ) : (
                 <section>
-                    <a onMouseEnter={handleInfoOn} onTouchStart={handleInfoOn} target="_blank" href={''}>
+                    <div onMouseEnter={handleInfoOn} onTouchStart={handleInfoOn} >
                         <img src={img} alt="ErroIMG" />
-                    </a>
+                    </div>
                     <div className={Styles.test}>
                         <h3>{title}</h3>
                         <h5>
