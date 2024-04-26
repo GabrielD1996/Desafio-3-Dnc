@@ -9,5 +9,5 @@ function ButtonA({ text, link}) {
             </a>
         </div >
     )
-}
+} 
 export default ButtonA

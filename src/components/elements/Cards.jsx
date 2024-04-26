@@ -34,7 +34,7 @@ function Cards({ img, title, description, tech, repo, site, hiddenInfo,btnText})
                 </section>
             ) : (
                 <section>
-                    <div onMouseEnter={handleInfoOn} onTouchStart={handleInfoOn} >
+                    <div className={Styles.cardImg} onMouseEnter={handleInfoOn} onTouchStart={handleInfoOn} >
                         <img src={img} alt="ErroIMG" />
                     </div>
                     <div className={Styles.test}>

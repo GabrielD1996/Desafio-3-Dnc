@@ -48,6 +48,6 @@ function Timeline() {
             </div>
         </section>
     );
-}
+} 
 
 export default Timeline;

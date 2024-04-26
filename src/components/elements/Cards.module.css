@@ -9,39 +9,41 @@
     height: 50%;
 }
 
-.card img {
-    width: 100%;   
-    border-radius: 8px;
+.cardImg{
+    height: 230px;
+  
 }
+.card img {
+    width: 100%;  
+    height: 100%; 
+    
+}
+
 
 .hiddenCard {
     display: grid;
     align-content: space-around;
     justify-items: center;
     width: 100%;
-    height: 302px ;
+    height: 230px ;
     background: linear-gradient(270deg, #3406454e 0%, #242f6c39 66.67%, #0b01164e 100%) !important;
     border-radius: 1vw;
     background-size: cover;
     color: white;
     text-align: center;
-    
-
 }
-
 .hiddenInfo {
     display: grid;
-    align-content: center;
-    width: 350px;
-    height: 250px;
+    align-content: center;  
+    height: 210px;
     background-color: transparent;
 }
 
 .hiddenCard h4 {
     background-color: transparent;
-    font-size: 20px;
+    font-size: 1.2vw;
     font-weight: normal;
-    margin: 0 0 20px 0;
+    margin: 0 0 5px 0;
 }
 
 .card img:hover {
@@ -58,7 +60,7 @@
 }
 
 .card h3 {
-    font-size: 2vw;
+    font-size: 2vw; 
     text-align: center;
     margin: 2vw 0 0 0;
 
@@ -74,18 +76,41 @@
     font-size: 27px;
 }
 .card p {
-    margin: 0;
-    padding: 2vw 0 2vw 0;
-    height: 120px;
-    font-size: 20px;
-    align-content: center;
+    margin: 5px;
+    padding: 15px 0 ;
+    height: 200px;
+    font-size: 1.2vw;
+    
 }
+
+@media (max-width: 1040px) {
+.card p {
+    height: 100px;
+}
+.cardImg{
+    height: 160px;
+  
+}
+.hiddenCard {
+    height: 160px;
+}
+.hiddenInfo {
+    height: 150px;
+}
+}
+
+
+
+
 
 @media (max-width: 768px) {
     .card {
         width: 240px;
     }
-
+    .cardImg{
+        height: 125px;
+      
+    }
     .hiddenCard {
         height: 125px;
         margin-top: 5px;
