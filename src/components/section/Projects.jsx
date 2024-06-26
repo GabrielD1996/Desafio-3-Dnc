@@ -10,6 +10,7 @@ function Projects() {
         <section className={styles.Projects} id="projects">
 
             <h1>Projetos</h1>
+        <div>
             <div className={styles.cardSection}>
                 <Cards hiddenInfo='Esta página consiste em elementos básicos, como cabeçalho,
                     menu de navegação, seções de conteúdo e um rodapé, alem do carossel feito com ajuda do JavaScript. ' 
@@ -18,7 +19,8 @@ function Projects() {
                     Utilizei HTML para estruturar o conteúdo da página, CSS para estilizar e dar um design atraente. '
                     site='https://primeiro-projeto-luck.netlify.app'
                     btnText='Clique aqui'
-                    repo='https://github.com/GabrielD1996/projeto-landing-page' />
+                    repo='https://github.com/GabrielD1996/projeto-landing-page'
+                    subtilteImg='Clique na imagem para saber mais, e ter acesso ao link do projeto!' />
                 <Cards hiddenInfo='Este primeiro desafio avaliativo não só me proporcionou um senso de realização pessoal,
                  mas também solidificou minha paixão pela programação e me motivou a continuar avançando no curso com entusiasmo e determinação.' 
                  img={challengeOne} title='Primeiro desafio DNC' tech='HTML,CSS'
@@ -27,7 +29,8 @@ function Projects() {
                     direta do instrutor. O desafio consistia em construir uma landing page para uma empresa de arquitetura.'
                     site='https://primeiro-desafio-dnc.netlify.app'
                     btnText='Clique aqui'
-                    repo='https://github.com/GabrielD1996/projeto-landing-page' />
+                    repo='https://github.com/GabrielD1996/projeto-landing-page' 
+                    subtilteImg='Clique na imagem para saber mais, e ter acesso ao link do projeto!'/>
             </div>
 
             <div className={styles.cardSection}>
@@ -40,7 +43,8 @@ function Projects() {
                     aplicar nossas habilidades de programação de forma prática e realista.'
                     site='https://desafio2dnc.netlify.app'
                     btnText='Clique aqui'
-                    repo='https://github.com/GabrielD1996/projeto-landing-page' />
+                    repo='https://github.com/GabrielD1996/projeto-landing-page' 
+                    subtilteImg='Clique na imagem para saber mais, e ter acesso ao link do projeto!'/>
                 <Cards hiddenInfo='Com uma abordagem moderna e responsiva, meu portfólio destaca minha jornada de aprendizado, exibindo projetos 
                     significativos que desenvolvi durante o curso. Convido-o a explorar meu portfólio e, em seguida, conectar-se comigo no LinkedIn.'
                     img={portfolio} title='Portifolio' tech='HTML,CSS,JS,REACT'
@@ -49,9 +53,11 @@ function Projects() {
                     avaliativa do meu curso de programação. '   
                     site='https://www.linkedin.com/in/gabriel-domingues-5b987b251/'
                     btnText='Visite meu Linkedin'
-                    repo='https://github.com/GabrielD1996/projeto-landing-page' />
+                    repo='https://github.com/GabrielD1996/projeto-landing-page'
+                    subtilteImg='Clique na imagem para saber mais, e ter acesso ao meu LinkedIn!' />
+                    
             </div>
-
+            </div>
         </section>
 
     )

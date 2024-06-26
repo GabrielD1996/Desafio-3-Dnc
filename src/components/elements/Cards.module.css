@@ -1,66 +1,59 @@
+
 .card {
     display: flex;
-    justify-content: center;
-    width: 30vw;
+    width: 100%;
     margin-bottom: 20px;
+    border-radius: 2vw 0;
+    box-shadow: 0px 0px 12px 0px #FFF;
+    box-sizing: border-box;
+    margin-bottom: 3vw;
+
 }
 
-.test {
-    height: 50%;
+
+.cardImg {
+    width: 50%;
+    margin-right: 75px;
+    
+   
 }
 
-.cardImg{
-    height: 230px;
-  
-}
 .card img {
-    width: 100%;  
-    height: 100%; 
+    width: 100%;
+    height: 90%;
+    border-radius: 20px ;
     
 }
 
-
-.hiddenCard {
-    display: grid;
-    align-content: space-around;
-    justify-items: center;
-    width: 100%;
-    height: 230px ;
-    background: linear-gradient(270deg, #3406454e 0%, #242f6c39 66.67%, #0b01164e 100%) !important;
-    border-radius: 1vw;
-    background-size: cover;
-    color: white;
-    text-align: center;
-}
-.hiddenInfo {
-    display: grid;
-    align-content: center;  
-    height: 210px;
-    background-color: transparent;
-}
-
-.hiddenCard h4 {
-    background-color: transparent;
-    font-size: 1.2vw;
-    font-weight: normal;
-    margin: 0 0 5px 0;
-}
-
-.card img:hover {
-    transform: translateY(-10px);
+.card img:hover { 
+    
     cursor: pointer;
-    transition-duration: 0, 5s;
+}
+.cardImg p{
+    font-size: 1.1vw !important;
+    text-align: center ;
+    margin-top:  20px !important;
 }
 
 .card section {
+    display: flex;
+    flex-direction: row;
     padding: 2vw;
     border-radius: 2vw 0;
     width: 100%;
-    box-shadow: 0px 0px 12px 0px #FFF;
+   
+}
+
+.cardText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    box-sizing: border-box;
 }
 
 .card h3 {
-    font-size: 2vw; 
+    font-size: 2vw;
     text-align: center;
     margin: 2vw 0 0 0;
 
@@ -69,34 +62,53 @@
 .card h5 {
     margin: 5px 0 5px 0;
     padding: 1vw 0 1vw 0;
-    font-size: 22px;
+    font-size: 1.2vw;
     font-weight: normal;
 }
-.card h5 strong{
-    font-size: 27px;
-}
+
+
 .card p {
     margin: 5px;
-    padding: 15px 0 ;
-    height: 200px;
+    padding: 15px 0;
     font-size: 1.2vw;
-    
+    padding: 0;
+
+}
+
+
+.hiddenCard {
+   
+    width: 50%;
+    color: white;
+}
+.hiddenInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+   
+}
+
+
+.hiddenCard h4 {
+  
+    font-size: 1.2vw;
+    font-weight: normal;
+    margin: 60px 0 5px 0;
 }
 
 @media (max-width: 1040px) {
-.card p {
-    height: 100px;
-}
-.cardImg{
-    height: 160px;
+    .card h3{
+        font-size: 2.7vw;
+    }
+    .card h5{
+        font-size: 1.8vw;
+    }
+    .card p{
+        font-size: 1.5vw;
+    }
+   
   
-}
-.hiddenCard {
-    height: 160px;
-}
-.hiddenInfo {
-    height: 150px;
-}
 }
 
 
@@ -107,26 +119,31 @@
     .card {
         width: 240px;
     }
-    .cardImg{
+
+    .cardImg {
         height: 125px;
-      
+
     }
+
     .hiddenCard {
         height: 125px;
         margin-top: 5px;
     }
+
     .hiddenInfo {
         width: 80%;
         height: 100px;
-           
+
     }
+
     .hiddenCard h4 {
         font-size: 10px;
         font-weight: normal;
         margin: 0 0 -10px 0;
     }
-    .hiddenBtn{
-      font-size: 10px !important;
+
+    .hiddenBtn {
+        font-size: 10px !important;
     }
 
     .card h3 {

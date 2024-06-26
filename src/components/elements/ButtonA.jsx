@@ -8,6 +8,6 @@ function ButtonA({ text, link}) {
                 <button className={styles.btn}>{text}</button>
             </a>
         </div >
-    )
+    )  
 } 
 export default ButtonA
