@@ -44,10 +44,10 @@ function Presentation() {
             <h2>*{text}</h2>
 
             <ul>
-                <li><FaBook size={'16'} />&nbsp;Estudante de tecnologia  </li>
-                <li><FaDesktop size={'16'} />&nbsp;Cursando na DNC, formaçao em tecnologia (fullStack)</li>
-                <li><FaLightbulb  />&nbsp;Interesse em desenvolvimento front end e back end</li>
-                <li> <FaRocket size={'16'} />&nbsp;Buscando uma oportunidade de migração de carreira </li>
+                <li><FaBook size={'16'} />&nbsp;Estudante de tecnologia; </li>
+                <li><FaDesktop size={'16'} />&nbsp;Cursando na DNC, formaçao em tecnologia (Desenvolvedor Full-Stack);</li>
+                <li><FaLightbulb  />&nbsp;Interesse em desenvolvimento front end e back end;</li>
+                <li> <FaRocket size={'16'} />&nbsp;Buscando uma oportunidade de migração de carreira;</li>
             </ul>
 
             <div><ButtonA  text='Saber mais!' link='https://www.linkedin.com/in/gabriel-domingues-5b987b251/' /></div>
