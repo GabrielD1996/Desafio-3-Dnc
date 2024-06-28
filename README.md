@@ -35,8 +35,8 @@ Bem-vindo ao meu portfólio! Este projeto foi desenvolvido com o objetivo de apr
 
 ### Pré-requisitos
 
-- Node.js (versão X ou superior)
-- npm ou yarn
+- Node.js 
+- npm 
 
 ### Passos para Executar
 
@@ -54,8 +54,8 @@ Bem-vindo ao meu portfólio! Este projeto foi desenvolvido com o objetivo de apr
 4. Execute o servidor de desenvolvimento:
     ```sh
     npm run dev
-5. Abra o navegador e acesse:
-    [Acesse o projeto ](http://localhost:5173/)
+5. Acesse o Projeto:
+    [O comando do passo "4" ira disponibilizar o link para acesso](http://localhost:5173/)
 
 ### Capturas de Tela
 
@@ -68,5 +68,5 @@ Bem-vindo ao meu portfólio! Este projeto foi desenvolvido com o objetivo de apr
 ##### Contato   
 
 Email: gabrieldn1996@gmail.com
-![LinkedIn:](https://www.linkedin.com/in/gabriel-domingues-5b987b251/) 
-![GitHub:](https://github.com/GabrielD1996)
+LinkedIn: https://www.linkedin.com/in/gabriel-domingues-5b987b251/
+GitHub: https://github.com/GabrielD1996
