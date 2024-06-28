@@ -8,6 +8,7 @@
     box-sizing: border-box;
     margin-bottom: 3vw;
 
+
 }
 
 
@@ -115,36 +116,40 @@
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .card {
-        width: 240px;
+        height:440px ;
+    }
+    .card section {
+        flex-direction: column;
     }
 
-    .cardImg {
-        height: 125px;
-
+    .cardImg {       
+        width: 100%;
     }
-
-    .hiddenCard {
-        height: 125px;
+    .cardImg p{
+        font-size: 9px !important ;
+        margin-top:  0px !important;
+        background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+        border-radius: 20px;
+    }
+    .cardText{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    .hiddenCard { 
+        width: 100%;
+        height: 100%;
         margin-top: 5px;
+        text-align: center;
     }
-
-    .hiddenInfo {
-        width: 80%;
-        height: 100px;
-
-    }
-
     .hiddenCard h4 {
-        font-size: 10px;
-        font-weight: normal;
-        margin: 0 0 -10px 0;
+        font-size: 14px;
+        margin: 10px 15px 0px 15px;
     }
 
-    .hiddenBtn {
-        font-size: 10px !important;
-    }
+   
 
     .card h3 {
         font-size: 5vw;
@@ -156,6 +161,6 @@
 
     .card p {
         font-size: 12px;
-        height: 110px;
+        
     }
 }
