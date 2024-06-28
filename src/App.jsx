@@ -13,11 +13,16 @@ function App() {
 
   return (
     <>
+       <div className="App">
+      <div className="animated-background"></div>
+      <div className="content">
       <Navbar />
       <Presentation />
       <Projects />
       <Timeline />
       <Footer />
+      </div>
+    </div>
     </>
   )
 }

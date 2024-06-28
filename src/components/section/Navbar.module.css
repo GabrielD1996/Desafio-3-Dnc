@@ -2,12 +2,14 @@
 
 .navbar {
     display: grid;
+    background-color: #0F1624 ;
     grid-auto-flow: column;
     position: sticky;
     top: 0; 
     width: 100%; 
     z-index: 1000; 
     border-bottom: 2px solid #fff;
+    height: 75px ;
 }
 
 .navbar ul {
@@ -43,6 +45,9 @@
 
 
 @media (max-width: 768px) {
+    .navbar{
+        height: 100%;
+    }
     .navbar ul {
         margin-left: 0;
         display: grid;
